@@ -25,25 +25,27 @@
 ## Folder Structure
 
 jobgrid-webapp/
-â”œâ”€â”€ client/             # React frontend
-â”‚   â”œâ”€â”€ public/
-â”‚   â””â”€â”€ src/
-â”‚       â”œâ”€â”€ components/
-â”‚       â”œâ”€â”€ pages/
-â”‚       â”œâ”€â”€ utils/
-â”‚       â””â”€â”€ App.jsx
-â”œâ”€â”€ server/             # Backend API
-â”‚   â”œâ”€â”€ routes/
-â”‚   â”œâ”€â”€ controllers/
-â”‚   â”œâ”€â”€ services/
-â”‚   â””â”€â”€ index.js or main.py
-â”œâ”€â”€ docs/               # Architecture, API flows, parsing logic
-â”‚   â”œâ”€â”€ oauth-flow.md
-â”‚   â”œâ”€â”€ ai-parsing.md
-â”‚   â””â”€â”€ export-logic.md
-â”œâ”€â”€ .env.example
-â”œâ”€â”€ README.md
-â””â”€â”€ LICENSE
+├── client/                    # React frontend
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       ├── utils/
+│       └── App.jsx
+├── server/                    # Backend API
+│   ├── routes/
+│   ├── controllers/
+│   ├── services/
+│   └── index.js
+├── docs/                      # Architecture, API flows, parsing logic
+│   ├── oauth-flow.md
+│   ├── ai-parsing.md
+│   ├── export-logic.md
+│   └── contributing.md
+├── .env.example
+├── .gitignore
+├── README.md
+└── LICENSE
 
 
 ## Setup Instructions
@@ -52,3 +54,4 @@ jobgrid-webapp/
 2. Populate `.env` from `.env.example` with credentials
 3. Install dependencies in `client` and `server`
 4. Run frontend and backend locally
+
