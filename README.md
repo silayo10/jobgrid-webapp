@@ -26,22 +26,22 @@
 
 jobgrid-webapp/  
 ├── client/                    # React frontend  
-│   ├── public/  
-│   └── src/  
-│       ├── components/  
-│       ├── pages/  
-│       ├── utils/  
-│       └── App.jsx  
+│      ├── public/  
+│      └── src/  
+│             ├── components/  
+│             ├── pages/  
+│             ├── utils/  
+│             └── App.jsx  
 ├── server/                    # Backend API  
-│   ├── routes/  
-│   ├── controllers/  
-│   ├── services/  
-│   └── index.js  
+│      ├── routes/  
+│      ├── controllers/  
+│      ├── services/  
+│      └── index.js  
 ├── docs/                      # Architecture, API flows, parsing logic  
-│   ├── oauth-flow.md  
-│   ├── ai-parsing.md  
-│   ├── export-logic.md  
-│   └── contributing.md  
+│      ├── oauth-flow.md  
+│      ├── ai-parsing.md  
+│      ├── export-logic.md  
+│      └── contributing.md  
 ├── .env.example  
 ├── .gitignore  
 ├── README.md  
@@ -54,5 +54,6 @@ jobgrid-webapp/
 2. Populate `.env` from `.env.example` with credentials
 3. Install dependencies in `client` and `server`
 4. Run frontend and backend locally
+
 
 
